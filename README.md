@@ -11,7 +11,7 @@ The project is designed to work with little customisation needed to get an initi
 For University of Salford students using this test, this article: https://salfordprod.service-now.com/kb_view.do?sysparm_article=KB0010645 “covers basic use of the University service for hosting web content” (obtaining & using a web server account for your test).  
 The test as you have downloaded it in step 1 includes placeholder/example audio files which it is set to work with. So you can, if you wish, simply upload the downloaded test to your webserver account at this point to see an example of it working, even before you set it up with your own files. You don’t need to do this, but it may help if you work through the steps in the guide to access your web server account, so that if you have any issue & need a hand you have more time prior to when you start testing.
 Note that as stressed in the guide you need to upload the **contents** of your test folder to the server (rather than the folder itself).  
-See step 7 for addresses to use in a web browser to see the uploaded project.
+See step 6 for addresses to use in a web browser to see the uploaded project.
 
 3.	Prepare the audio files you will use in your test. The project is set up to work with .wav audio files. Other file formats are possible, the code downloaded in step 2 can be adapted to accomodate.  
 .wav format is chosen for audio as it best matches the requirements of the University of Salford students the project was created for. It is not the best choice in terms of size on the server, connection bandwidth etc. To change the format the test works with to (e.g.) mp3 edit the single occurrence on page.php of the text “wav” to “mp3”.
