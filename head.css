@@ -1,0 +1,26 @@
+h1, img{
+margin:10px 10px 0 40px
+}
+form{
+display:inline-block;
+vertical-align:top
+}
+.centr{
+text-align:center;
+margin:3rem
+}
+label{
+font-size:3.6rem;
+position:relative;
+right:0.6rem;
+bottom:1rem;
+color:white
+}
+input[type="number"]{
+max-width:10rem;
+font-size:4.5rem;
+background-color:#c8c8ca;
+border:none;
+text-align:right;
+color:white
+}
