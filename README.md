@@ -14,7 +14,7 @@ Note that as stressed in the guide you need to upload the **contents** of your t
 See step 6 for addresses to use in a web browser to see the uploaded project.
 
 3.	Prepare the audio files you will use in your test. The project is set up to work with .wav audio files. Other file formats are possible, the code downloaded in step 2 can be adapted to accomodate.  
-.wav format is chosen for audio as it best matches the requirements of the University of Salford students the project was created for. It is not the best choice in terms of size on the server, connection bandwidth etc. To change the format the test works with to (e.g.) mp3 edit the single occurrence on page.php of the text “wav” to “mp3”.
+.wav format is chosen for audio as it best matches the requirements of the University of Salford students the project was created for. It is not the best choice in terms of size on the server, connection bandwidth etc. To change the format the test works with to (e.g.) mp3 edit the single occurrence on page.php of the text “wav” to “mp3”
 
 4.	Place your audio files in the “audiofiles” folder inside your test folder (delete or overwrite the placeholder/example files already there). The files must be named according to the following convention:  
   1.wav  
