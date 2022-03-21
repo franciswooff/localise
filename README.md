@@ -27,4 +27,4 @@ See step 6 for addresses to use in a web browser to see the uploaded project.
 6.	Upload your test to the server (see item 2 in these instructions) - or if you already had a “trial run” as recommended in step 2 replace the example audio files with the ones you have added to your folders in step 4 & the EDITME.txt file with the new version from step 5.  
 Enter your webserver account address in a browser  (e.g. http://abc123.poseidon.salford.ac.uk) to take you to the start page of the test as used by the test subject.
 
-Congratulations! You should have a working test which you can use with no further steps* Hopefully the format the results arrive in via e-mail is self-explanatory (& easy to bring into e.g. Excel, use the underscore as a separator).
+Congratulations! You should now have a working test. Hopefully the format the results arrive in via e-mail is self-explanatory & easy to bring into (e.g.) Excel, use the underscore as a separator (University of Salford students see this video https://web.microsoftstream.com/video/a86fef9c-4fa6-483d-a341-74ddfcf8ca9f?App=msteamsBot&refId=f:8cfcc95c-d81b-d2c7-63da-c1a68e09db34).
