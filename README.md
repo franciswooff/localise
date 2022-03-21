@@ -19,7 +19,7 @@ See step 6 for addresses to use in a web browser to see the uploaded project.
 4.	Place your audio files in the “audiofiles” folder inside your test folder (delete or overwrite the placeholder/example files already there). The files must be named according to the following convention:  
   1.wav  
   2.wav  
-  1.wav  
+  3.wav  
   etc.  
 
 5.	Edit the text file EDITME.txt in your test folder. This file “tells” the test the number of test pages in the test (first line of the file) & the e-mail address the test results are to be sent to (second line of the file). Easiest to open the file & see how it looks before editing - instructions are also included in the file itself & should be easy to follow in that context.
