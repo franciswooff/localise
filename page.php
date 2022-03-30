@@ -1,7 +1,7 @@
 <?php
 $editme = fopen('EDITME.txt', 'r') or die('<p>Unable to open your EDITME.txt file</p>');
 $vidnum = fgets($editme);
-fclose('EDITME.txt');
+fclose($editme);
 
 session_set_cookie_params(3000,"/");
 session_start();
