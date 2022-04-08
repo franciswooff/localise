@@ -28,3 +28,12 @@ See step 6 for addresses to use in a web browser to see the uploaded project.
 Enter your webserver account address in a browser  (e.g. http://abc123.poseidon.salford.ac.uk) to take you to the start page of the test as used by the test subject.
 
 Congratulations! You should now have a working test. Hopefully the format the results arrive in via e-mail is self-explanatory & easy to bring into (e.g.) Excel, use the underscore as a separator (University of Salford students see this video https://web.microsoftstream.com/video/a86fef9c-4fa6-483d-a341-74ddfcf8ca9f?App=msteamsBot&refId=f:8cfcc95c-d81b-d2c7-63da-c1a68e09db34).
+
+Additional functionality/features to be added:
+1.	Check responsiveness (presentation on mobile screen). May require computed, rather than fixed, positioning for head graphic & "centre pixel" used in calculating angle)
+2.	Option to make participant number mandatory
+3.	Option to have an extra introductory/practice page(s)
+4.	Option to randomise order of test pages
+5.	Optional height slider
+6.	Option to change "head" graphic to one without angles (all black text & lines)
+7.	Replacement of "EDITME" text file with set up page (requiring authentication) 
