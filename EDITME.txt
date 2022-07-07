@@ -1,7 +1,28 @@
-3
+5
 you@edu.salford.ac.uk
+random
+angles
+autoplay
+loop
+height
 
-Edit the two lines above to your values:
+Edit the lines above to your values:
+
 The first line is the number of pages in your test.
+
 The second line is the e-mail address you wish the test results to be sent to.
-n.b. the number & mail address must be alone on a line each & those lines must be lines 1 & 2
+
+Lines 3 to 7 are "switches" which select the following for your test:
+
+3: Randomisation of the order in which your audio files are presented to the subject to rate (any character on this line will enable randomisation, an empty line will switch it off)
+
+4: Use of the graphic in the test interface which shows the surrounding circle divided into eighths with values in degrees (any character on this line will give the graphic divided into eighths, an empty line will give the graphic with only head & white circle)
+
+5. Audio file MAY* autoplay (any character on this line will enable autoplay, an empty line will switch it off)
+* n.b. some browsers suppress autoplay, it is likely autoplay cannot be achieved in Chrome, it should work in Firefox
+
+6. Audio file will loop (any character on this line will enable looping, an empty line will switch it off)
+
+7. Option yet to be completed, will add a height slider
+
+n.b. each value above must be alone on a line each & those lines must be the lines as specified
