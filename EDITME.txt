@@ -2,7 +2,7 @@
 you@edu.salford.ac.uk
 random
 angles
-autoplay
+
 loop
 height
 
@@ -16,13 +16,14 @@ Lines 3 to 7 are "switches" which select the following for your test:
 
 3: Randomisation of the order in which your audio files are presented to the subject to rate (any character on this line will enable randomisation, an empty line will switch it off)
 
-4: Use of the graphic in the test interface which shows the surrounding circle divided into eighths with values in degrees (any character on this line will give the graphic divided into eighths, an empty line will give the graphic with only head & white circle)
+4: Use of head graphic in the test interface which shows the surrounding circle divided into eighths with values in degrees (any character on this line will give the graphic divided into eighths, an empty line will give the graphic with only head & white circle)
 
-5. Audio file MAY* autoplay (any character on this line will enable autoplay, an empty line will switch it off)
-* n.b. some browsers suppress autoplay, it is likely autoplay cannot be achieved in Chrome, it should work in Firefox
+5: Audio file MAY autoplay (any character on this line will enable autoplay, an empty line will switch it off)
+In the example settings above only this line is left blank, as autoplay of media should be used with caution (asking user consent first is good practice).
+Some browsers suppress autoplay, as of July 22 Chrome allows it (as long as sound for websites generally is enabled), Firefox requires permission per site granting 
 
-6. Audio file will loop (any character on this line will enable looping, an empty line will switch it off)
+6: Audio file will loop (any character on this line will enable looping, an empty line will switch it off)
 
-7. Option yet to be completed, will add a height slider
+7: Option yet to be completed, will add a height slider
 
 n.b. each value above must be alone on a line each & those lines must be the lines as specified
