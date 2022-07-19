@@ -17,6 +17,7 @@ $editme = fopen("EDITME.txt", "r") or die('<p>Unable to open your EDITME.txt fil
 $pagenum=fgets($editme);
 $mail=fgets($editme);
 fclose($editme);
+$allres="N.B. If randomisation is enabled the participant is likley to have been presented the test pages in a different order to the results below. The results below are ordered as if there were no randomisation (i.e. in order of audio file numbering)";
 
 session_start();
 $subno = $_SESSION["subno"];
