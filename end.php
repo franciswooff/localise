@@ -13,16 +13,16 @@
 <p>Thanks for taking part in the test. Your results have been submitted.</p>
 
 <?php
-$editme = fopen("EDITME.txt", "r") or die('<p>Unable to open your EDITME.txt file</p>');
-$pagenum=fgets($editme);
+$editme = fopen('EDITME.txt', 'r') or die('<p>Unable to open EDITME.txt file</p>');
+$numpages=fgets($editme);
 $mail=fgets($editme);
 fclose($editme);
-$allres="N.B. If randomisation is enabled the participant is likley to have been presented the test pages in a different order to the results below. The results below are ordered as if there were no randomisation (i.e. in order of audio file numbering)";
+$allres="Audio File , Result (degrees) , Test Page \r\n";
 
 session_start();
-$subno = $_SESSION["subno"];
+$subno = $_SESSION['subno'];
 
-for ($i = 1; $i <= $pagenum; $i++){
+for ($i = 1; $i <= $numpages; $i++){
   $res = $_SESSION['d'.$i];
   $allres .= "\r\n".$res;
 }
