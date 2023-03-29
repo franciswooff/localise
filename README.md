@@ -1,6 +1,6 @@
 # localise
 
-Project to support students at the University of Salford in hosting audio localisation tests online
+Template to support students of the University of Salford to conduct online tests indicating perceived source direction of recorded sound
 
 **INSTRUCTIONS FOR USE**
 The project is designed to work with little customisation needed to get an initial usable test. The minimum actions needed to use it are:
@@ -29,7 +29,7 @@ Lines 3 to 7 are "switches" which select the following for the test:
 - Line 3: Option to randomise order of test pages (any character on this line will enable randomisation, an empty line will switch it off)
 - Line 4: Option to have the test's head graphic surrounded by a circle divided into eighths with values in degrees (any character on this line will give the graphic divided into eighths, an empty line will give the graphic with only head & white circle)
 - Line 5: Option to autoplay audio file on page load (any character on this line will enable autoplay, an empty line will switch it off)
-n.b. some browsers suppress autoplay, it may be autoplay cannot be achieved in Chrome, it should work in Firefox
+n.b. some browsers suppress autoplay
 - Line 6: Option for looping of audio files (any character on this line will enable looping, an empty line will switch it off)
 - Line 7: Option for height slider FEATURE NOT YET IMPLEMENTED, TO FOLLOW SHORTLY
   
@@ -42,10 +42,10 @@ Enter your web server account address in a browser (e.g. http://abc123.poseidon.
 Congratulations! You should now have a working test. Hopefully the format the results arrive in via e-mail is self-explanatory & easy to bring into (e.g.) Excel, use the underscore as a separator (University of Salford students see this video https://web.microsoftstream.com/video/a86fef9c-4fa6-483d-a341-74ddfcf8ca9f?App=msteamsBot&refId=f:8cfcc95c-d81b-d2c7-63da-c1a68e09db34).
 
 Additional functionality/features to be added:
-1.	Check responsiveness (presentation on mobile screen). May require computed, rather than fixed, positioning for head graphic & "centre pixel" used in calculating angle)
+1.	Further enhancement of responsiveness (presentation on mobile screen) ~~may require computed, rather than fixed, positioning for head graphic & "centre pixel" used in calculating angle~~
 2.	Option to make participant number mandatory
 3.	Option to have an extra introductory/practice page(s)
 4.	~~Option to randomise order of test pages~~
 5.	Optional height slider
 6.	~~Option to change "head" graphic to one without angles (all black text & lines)~~
-7.	Replacement of "EDITME" text file with set up page (requiring authentication) 
+7.	Replacement of "EDITME" text file with set up page (requiring authentication)

@@ -10,7 +10,6 @@ fclose($editme);
 
 session_set_cookie_params(3000,'/');
 session_start();
-
 $cntr = $_SESSION['pagecount'] ?? 0;
 
 if ($cntr == 0) {
@@ -25,7 +24,7 @@ if (isset($_POST['page'])) {
   if(is_numeric($res)){
     $_SESSION['d'.$pageary[$cntr-1]] = $pageary[$cntr-1].' , '.$res.' , '.$cntr;
   } else {
-    exit('<h1>Something nasty here, try the test again</h1>');
+    exit('<h2>Something nasty here, try the test again</h2>');
   }
 }
 
@@ -41,7 +40,7 @@ if (isset($_POST['start'])) {
   } else if ($ptno==''){
     $_SESSION['subno']='not set';
   } else {
-    exit('<h1>Something nasty here, go back &amp; try again</h1>');
+    exit('<h2>Something nasty here, go back &amp; try again</h2>');
   }
 }
 
@@ -55,11 +54,13 @@ if ($angles > chr(32)) {
 } else {
   $image='headNA.png';
 }
+
 if ($autoply > chr(32)) {
   $ap='autoplay';
 } else {
   $ap='';
 }
+
 if ($loops > chr(32)) {
   $lp='loop';
 } else {
@@ -77,10 +78,10 @@ echo '<!doctype html>
 <script src="head.js" defer></script>
 </head>
 <body>
+<main>
+<h2>Localise test '.((string)$cntr+1).'</h2>
 
-<h1>Localise test '.($cntr+1).'</h1>
-
-<audio '.$ap.' '.$lp.' src="audiofiles/'.$pageary[$cntr].'.wav"></audio>
+<audio '.$ap.' '.$lp.' src="audiofiles/'.(string)$pageary[$cntr].'.wav"></audio>
 
 <img src="images/'.$image.'" alt="overhead diagram of head showing angles on surrounding circle">
 
@@ -99,6 +100,6 @@ $_SESSION['pagecount'] = $cntr;
     <input type="submit" value="Submit" name="page">
   </div>
 </form>
-
+</main>
 </body>
 </html>
