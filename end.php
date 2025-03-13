@@ -33,7 +33,7 @@ mail($mail, "Localise test results for participant number ".$subno, $allres);
 session_unset();
 ?>
 
-<footer>"Localise" test tool by <a href="https://github.com/franciswooff" target="_blank">FrancisWooff</a></footer>
+<footer>"Localise" test tool by <a href="https://franciswooff.net" target="_blank">Francis Wooff</a></footer>
 </main>
 </body>
 </html>
